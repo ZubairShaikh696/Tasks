@@ -1,0 +1,10 @@
+Sentence Capitalize e.g(zubair ahmed shaikh)
+
+var name="zubair ahmed shaikh";
+var nameCapitalize = name.toLowerCase().split(" ");
+
+ nameCapitalize.map((item) => {
+                      return (
+                        item.charAt(0).toUpperCase() + item.toLowerCase().slice(1)
+                      )
+                    })
